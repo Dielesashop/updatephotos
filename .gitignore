@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Archivos generados
+dist/
+build/
+coverage/
+.next/
+out/
+
+# Registros y archivos temporales
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Editores e IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cachés
+.cache/
+.turbo/
